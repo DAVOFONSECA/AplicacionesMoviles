@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio # 1 </string>
+    <string name="tvTitulo">Números primos</string>
+    <string name="eTNumero">Ingrese el número</string>
+    <string name="btnCalcular">Verificar si es primo</string>
+</resources>

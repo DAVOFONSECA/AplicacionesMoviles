@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ejercicio # 3 </string>
+    <string name="tVTitulo">Factura</string>
+    <string name="eTPrecioUno">Precio del producto # 1</string>
+    <string name="eTPrecioDos">Precio del producto # 2</string>
+    <string name="eTPrecioTres">Precio del producto # 3</string>
+    <string name="eTPrecioCuatro">Precio del producto # 4</string>
+    <string name="eTPrecioCinco">Precio del producto # 5</string>
+    <string name="btnCalcular">Calcular</string>
+</resources>

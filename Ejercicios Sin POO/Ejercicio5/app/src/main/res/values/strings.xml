@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio # 5 </string>
+    <string name="tVTitulo">Conversor</string>
+    <string name="eTNumero">Digite la cantidad de metros</string>
+    <string name="btnCalcularKm">Calcular Km</string>
+    <string name="btnCalcularHm">Calcular Hm</string>
+    <string name="btnCalcularDc">Calcular Dam</string>
+    <string name="btnCalculardc">Calcular dm</string>
+    <string name="btnCalcularcm">Calcular cm</string>
+    <string name="btnCalcularmm">Calcular mm</string>
+</resources>

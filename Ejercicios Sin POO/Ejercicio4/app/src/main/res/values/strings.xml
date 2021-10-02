@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejercicio # 4 </string>
+    <string name="tVTitulo">Potencia</string>
+    <string name="eTbase">Digite la base</string>
+    <string name="eTpotencia">Digite la potencia</string>
+    <string name="btnCalcular">Calcular</string>
+
+</resources>

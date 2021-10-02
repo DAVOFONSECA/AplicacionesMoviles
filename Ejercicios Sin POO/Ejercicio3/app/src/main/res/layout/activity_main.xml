@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tVTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tVTitulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <EditText
+        android:id="@+id/eTPrecioUno"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="@string/eTPrecioUno"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/eTPrecioCinco"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <EditText
+        android:id="@+id/eTPrecioDos"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/eTPrecioDos"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/eTPrecioTres"
+        app:layout_constraintTop_toBottomOf="@+id/eTPrecioUno" />
+
+    <EditText
+        android:id="@+id/eTPrecioTres"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/eTPrecioTres"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/eTPrecioCuatro"
+        app:layout_constraintTop_toBottomOf="@+id/eTPrecioDos" />
+
+    <EditText
+        android:id="@+id/eTPrecioCuatro"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/eTPrecioCuatro"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/eTPrecioCinco"
+        app:layout_constraintTop_toBottomOf="@+id/eTPrecioTres" />
+
+    <EditText
+        android:id="@+id/eTPrecioCinco"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="@string/eTPrecioCinco"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/btnCalcular"
+        app:layout_constraintTop_toBottomOf="@+id/eTPrecioCuatro" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="98dp"
+        android:onClick="calcularFactura"
+        android:text="@string/btnCalcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/eTPrecioCinco" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
